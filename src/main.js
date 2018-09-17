@@ -9,6 +9,7 @@ import cookie from "../static/js/cookie";
 
 import "../static/css/reset.css";
 import "../static/css/main.css";
+import  "../static/css/iconfont/iconfont.css";
 
 Vue.config.productionTip = false
 
