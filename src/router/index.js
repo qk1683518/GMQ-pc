@@ -4,6 +4,8 @@ import Router from 'vue-router'
 import cookie from "../../static/js/cookie";
 
 const HelloWorld = () =>import ('@/components/HelloWorld')
+const c2c = () =>import ('@/components/c2c/index')
+
 
 
 Vue.use(Router)
@@ -15,7 +17,14 @@ Vue.use(Router)
       name: 'HelloWorld',
       component: HelloWorld,
       meta: {  }
+    },
+    {
+      path: '/c2c',
+      name: 'c2c',
+      component: c2c,
+      meta: {  }
     }
+
   ]
 
 
